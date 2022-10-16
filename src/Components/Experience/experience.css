@@ -1,0 +1,44 @@
+.experience{
+    padding: 10px;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.achievement .circle {
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+}
+.achievement .circle::before {
+    content: '';
+    position: absolute;
+    inset: -5px -5px -5px -5px;
+    border-radius: 50%;
+    z-index: -11;
+    background: linear-gradient(to bottom, var(--orange), #7a939d 80%);
+    box-shadow: var(--boxShadow);
+
+
+}
+.achievement>:last-child {
+    color: var(--orange);
+    font-size: 18px;
+}

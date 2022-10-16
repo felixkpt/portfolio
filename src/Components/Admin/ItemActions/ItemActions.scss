@@ -1,0 +1,19 @@
+.item-actions {
+    display: flex;
+    gap: 5px;
+
+    button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: var(--admin-dark);
+        color: white;
+        padding: 5px 10px;
+        height: max-content;
+
+        &.btn-danger {
+            background-color: #f14606;
+        }
+    }
+}

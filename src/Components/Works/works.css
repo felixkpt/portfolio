@@ -1,0 +1,131 @@
+.works {
+    padding: 0 1rem;
+    display: flex;
+    gap: 1rem;
+    min-height: 60vh;
+    margin: 5rem 1rem;
+
+}
+
+@media (max-width: 768px) {
+    .works {
+        padding: 0;
+        flex-direction: column;
+        margin: 5rem 0;
+    }
+
+}
+
+.works-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1.3;
+}
+
+.works-left h5 {
+    font-size: 2.3rem;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.works-left h4 {
+    font-size: 2.3rem;
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.works-left p {
+    color: var(--gray);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0.6rem;
+}
+
+.works-right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.works-main-cirlcle {
+    position: relative;
+    width: min(16rem, 50vw);
+    height: min(16rem, 50vw);
+    top: min(2rem, 7.5vw);
+    border-radius: 50%;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.works-sec-cirlcle {
+    position: absolute;
+    width: min(4rem, 15vw);
+    height: min(4rem, 15vw);
+    border-radius: 50%;
+    padding: 6px;
+    background: white;
+    border: 4px solid #efedefad;
+}
+
+.works-sec-cirlcle img {
+    width: 100%;
+    height: 100%;
+}
+
+.works-sec-cirlcle:nth-child(1) {
+    top: calc(50% - min(2rem, 7.5vw));
+    left: calc(-1 * min(2rem, 7.5vw));
+    margin-block: auto;
+}
+
+.works-sec-cirlcle:nth-child(2) {
+    top: calc(100% - min(2rem, 7.5vw));
+    left: calc(50% - min(2rem, 7.5vw));
+    margin-block: auto;
+}
+
+.works-sec-cirlcle:nth-child(3) {
+    top: calc(50% - min(2rem, 7.5vw));
+    left: calc(100% - min(2rem, 7.5vw));
+    margin-block: auto;
+}
+
+.works-sec-cirlcle:nth-child(4) {
+    top: calc(-1 * min(2rem, 7.5vw));
+    left: calc(50% - min(2rem, 7.5vw));
+    margin-block: auto;
+}
+
+.works-sec-cirlcle:nth-child(5) {
+    top: calc(50% - min(2rem, 7.5vw));
+    left: calc(50% - min(2rem, 7.5vw));
+    margin-block: auto;
+}
+
+.works-circle-bg {
+    position: absolute;
+    width: min(12rem, 40vw);
+    height: min(12rem, 40vw);
+    border-radius: 50%;
+    box-shadow: var(--smboxShadow);
+    z-index: -1;
+}
+
+.works-circle-bg.blue {
+    top: 30%;
+    left: 45%;
+    background: #268cd8;
+}
+
+.works-circle-bg.yellow {
+    top: 37%;
+    right: 48%;
+    background: var(--orange);
+
+}

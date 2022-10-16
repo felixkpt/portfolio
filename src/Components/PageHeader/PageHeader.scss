@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px dotted var(--theme-main-color);
+    width: 100%;
+    h2 {
+        flex: 1;
+        font-size: 2rem;
+        color: var(--theme-main-color);
+        letter-spacing: 1.6px;
+        text-transform: capitalize;
+        line-height: 1rem;
+        font-weight: 600;
+    }
+    span {
+        svg {
+            color: var(--theme-main-color);
+        }
+    }
+}

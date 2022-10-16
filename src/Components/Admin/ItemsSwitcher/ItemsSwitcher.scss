@@ -1,0 +1,17 @@
+.items-switcher {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+
+    button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        border-radius: 7px;
+        background-color: var(--admin-dark);
+        color: white;
+        padding: 3px 7px;
+        height: max-content;
+
+    }
+}

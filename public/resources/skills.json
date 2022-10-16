@@ -1,0 +1,125 @@
+[
+  {
+    "label": "FRONT END",
+    "id": "FE",
+    "data": [
+      {
+        "skillName": "Vue.js",
+        "experience": "2 years",
+        "percentage": "85"
+      },
+      {
+        "skillName": "Vanilla JavaScript",
+        "experience": "4 years",
+        "percentage": "80"
+      },
+      {
+        "skillName": "jQuery",
+        "experience": "3.4 years",
+        "percentage": "80"
+      },
+      {
+        "skillName": "React",
+        "experience": "1 year",
+        "percentage": "90"
+      },
+      {
+        "skillName": "CSS",
+        "experience": "4.5 years",
+        "percentage": "90"
+      },
+      {
+        "skillName": "CSS3",
+        "experience": "3 years",
+        "percentage": "95"
+      },
+      {
+        "skillName": "BOOTSTRAP",
+        "experience": "3.6 years",
+        "percentage": "95"
+      },
+      {
+        "skillName": "Tailwind CSS",
+        "experience": "1.2 year",
+        "percentage": "75"
+      },
+      {
+        "skillName": "HTML5",
+        "experience": "4.5 years",
+        "percentage": "100"
+      }
+    ]
+  },
+  {
+    "label": "BACK END",
+    "id": "BE",
+    "data": [
+      {
+        "skillName": "PHP",
+        "experience": "4.2 years",
+        "percentage": "100"
+      },
+      {
+        "skillName": "Laravel",
+        "experience": "3.5 years",
+        "percentage": "100"
+      },
+      {
+        "skillName": "CodeIgniter",
+        "experience": "3 years",
+        "percentage": "90"
+      },
+      {
+        "skillName": "WordPress",
+        "experience": "3.5 years",
+        "percentage": "95"
+      },
+      {
+        "skillName": "MySQL",
+        "experience": "4.1 years",
+        "percentage": "100"
+      },
+      {
+        "skillName": "SQL",
+        "experience": "4 years",
+        "percentage": "100"
+      },
+      {
+        "skillName": "HTTP",
+        "experience": "4 years",
+        "percentage": "100"
+      },
+      {
+        "skillName": "E-commerce",
+        "experience": "1.2 year",
+        "percentage": "100"
+      }
+    ]
+  },
+  {
+    "label": "Other Skills",
+    "id": "SEO",
+    "data": [
+      {
+        "skillName": "Search Engine Optimization",
+        "experience": "3.7 years",
+        "percentage": "90"
+      },
+      {
+        "skillName": "Git",
+        "experience": "3.5 years",
+        "percentage": "100"
+      },
+      {
+        "skillName": "Web Development",
+        "experience": "4.1 years",
+        "percentage": "100"
+      },
+      {
+        "skillName": "Web Design",
+        "experience": "3 years",
+        "percentage": "95"
+      }
+    ]
+  }
+]

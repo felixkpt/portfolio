@@ -1,0 +1,22 @@
+{
+  "title": "PHP & JavaScript Full Stack Developer",
+  "intro": "<p>I've worked in web development for 4 years, including 2 years as a freelancer. During this time, I've developed exceptional skills in designing and constructing beautiful, reliable, quick, and secure websites. I am a self-driven individual that readily follows directions and never gives up until the desired outcomes are obtained.</p>",
+  "summary": {
+    "backend": "<div><h3>Backend Developer</h3> <p>Core PHP and frameworks like Laravel and CodeIgniter fuel the projects I create. I use WordPress to build websites as well, with the design and development of WordPress Plugins & Themes being my primary focus.</p><p>Additionally, I utilize Laravel to create custom e-commerce websites with integration of well-liked payment options that adhere to high security standards.</p><p>I also have solid experience designing and developing APIs, and I almost always utilize the Laravel API due to the greater authentication and authorization options it offers.</p><p>With my extensive knowledge of CSS3, HTML5, and JavaScript, I create fantastic user interfaces (UI). The majority of the websites I've built have utilized customized CSS and the Bootstrap framework.</p><p>I've also been using Tailwind CSS for the past year; it's a fantastic framework that allows creating modern-looking websites simple to do with a defined and predictable design pattern.</p><p>I also built up structured Schema data for a large number of websites for sophisticated Search Engine Optimization (SEO) so that search engines may more readily understand the content of the website.</p><p>Additionally, I have expertise designing user interface components utilizing JavaScript & jQuery, particularly in dynamic content manipulation involving AJAX & XHRs, navigations & dropdowns.</p></div>",
+    "frontend": "<div><h3>Frontend Developer</h3> <p>The understanding of Vanilla JavaScript, which has assisted me in creating a lot of websites utilizing Vue.js, React.js, and Node.js, is one of the best abilities I have for front-end development.</p></div>"
+  },
+  "personalDetails": [
+    {
+      "label": "Country",
+      "value": "Kenya"
+    },
+    {
+      "label": "Email",
+      "value": "felixkpt@gmail.com"
+    },
+    {
+      "label": "Contact No",
+      "value": "+254726021426"
+    }
+  ]
+}

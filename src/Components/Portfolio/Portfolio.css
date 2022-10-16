@@ -1,0 +1,56 @@
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.portfolio h4 {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.portfolio h5 {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.portfolio-slider {
+    margin-top: 3rem;
+    width: 100%;
+    overflow: visible;
+}
+
+.portfolio-slider .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-slider .swiper-slide .slider-wrapping {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.portfolio-slider .swiper-slide .slider-wrapping a,.portfolio-slider .swiper-slide .slider-wrapping a:active,.portfolio-slider .swiper-slide .slider-wrapping a:visited,.portfolio-slider .swiper-slide .slider-wrapping a:hover {
+    text-decoration: none;
+    color: var(--gray);
+    cursor: pointer;
+    z-index: 10;
+    pointer-events: all;
+    text-align: center;
+}
+
+.portfolio-slider .swiper-slide .slider-wrapping  img {
+    width: 19rem;
+    filter: drop-shadow(-12px 15 13px, rgba(0, 0, 0, 0.25));
+    border-radius: 14px;
+}
+@media screen and (max-width: 768px) {
+    .portfolio-slider .swiper-slide img {
+        width: 70vw;
+     }
+}
+

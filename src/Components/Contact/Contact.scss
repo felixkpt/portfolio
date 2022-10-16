@@ -1,0 +1,194 @@
+.contact {
+    margin-top: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__wrapper {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    &__overlay {
+        position: absolute;
+        width: 30px;
+        height: 100%;
+        top: 50px;
+        left: 0;
+        border-radius: 7px;
+        background-color: var(--theme-nav-background-color);
+
+    }
+
+    &__inner {
+        position: relative;
+        padding: 50px;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        align-items: center;
+
+        div {
+            flex-grow: 1;
+        }
+    }
+
+    .c-left {
+        .c-title {
+            font-size: 1.5rem;
+            color: var(--theme-main-color);
+        }
+
+        .c-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+            gap: 10px;
+
+            &__item {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                .c-icon {
+                    color: var(--theme-main-color);
+                }
+
+                .whatsapp {
+                    color: #0ea34c;
+                }
+
+                .linkedin {
+                    color: #0e72a3;
+                }
+
+                .facebook {
+                    color: #4064ac;
+                }
+
+                .twitter {
+                    color: #00a7e7;
+                }
+
+                .email {
+                    color: #e72300;
+                }
+            }
+
+        }
+    }
+
+    .c-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .c-desc {
+            padding-top: 50px;
+            font-size: 1.2rem;
+            font-weight: 200;
+
+            b {
+                color: var(--theme-main-color);
+            }
+        }
+
+        form {
+            margin-top: 20px;
+            width: 100%;
+
+            input,
+            textarea {
+                margin: 10px 0px;
+                font-size: 1rem;
+                padding-left: 10px;
+                border-radius: 5px;
+            }
+
+            input:focus-visible,
+            textarea:focus-visible {
+                outline-offset: -1px;
+                outline-color: var(--theme-main-color);
+
+            }
+
+            input {
+                width: 60%;
+                height: 40px;
+                border: none;
+                border-bottom: 2px solid var(--theme-main-color);
+            }
+
+            textarea {
+                width: 100%;
+            }
+
+            button {
+                cursor: pointer;
+                padding: 10px 35px;
+                margin: auto auto 20px;
+                font-size: 1.2rem;
+                background-color: var(--theme-main-color);
+                color: var(--white);
+                border: 2px solid var(--theme-nav-text-color);
+                border-radius: 4px;
+                font-weight: 500;
+                transition: all .5s ease-in-out;
+                position: relative;
+                z-index: 1;
+            }
+
+            button::after {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                transform: scaleX(0);
+                transition: transform 400ms ease-out;
+                transform-origin: top;
+                background: rgb(0 0 0 / 18%);
+                top: 0;
+                left: 0;
+                z-index: -1;
+
+            }
+
+            button:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom;
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .contact__inner {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .contact .c-left .c-title {
+        font-size: 1.4rem;
+    }
+
+    .contact__overlay {
+        width: 8px;
+    }
+
+    .contact__inner {
+        padding: 14px;
+    }
+
+    .contact .c-right form input {
+        width: 100%;
+    }
+
+}

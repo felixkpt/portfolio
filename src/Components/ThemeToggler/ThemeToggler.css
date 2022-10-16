@@ -1,0 +1,41 @@
+.theme-toggler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border: 2px solid var(--orange);
+    padding: 2px 4px;
+    border-radius: 30px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.theme-toggler>div {
+    color: var(--orange);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.theme-toggler>div:first-child {
+    border-radius: 50%;
+}
+
+.theme-toggler>div:nth-child(2) {
+    border-radius: 50%;
+}
+
+.theme-toggler>div:last-child {
+    transition: all 700ms ease;
+    position: absolute;
+    left: 0;
+    transform: translateX(26px);
+    background: var(--orange);
+    border-radius: 50%;
+}
+.theme-toggler.dark>div:last-child{
+    transform: translateX(0px);
+}

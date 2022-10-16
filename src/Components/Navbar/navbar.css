@@ -1,0 +1,144 @@
+.n-wrapper {
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    background: #d2d2d2;
+    color: var(--black);
+    box-shadow: 0 0px 5px -1px var(--black);
+    padding: 0 10px;
+}
+
+.App.dark .n-wrapper {
+    background: #0c0c0c;
+    box-shadow: 0 0px 5px -3px var(--black);
+}
+
+.n-left {
+    padding-inline: 10px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1;
+    background: inherit;
+}
+
+.n-left>* {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.n-name a {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    letter-spacing:3px;
+}
+
+.menu-toggler {
+    display: none;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+}
+
+.n-center {
+    padding-inline-end: 10px;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.n-list {
+    flex: 3;
+}
+
+.n-list>ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    list-style-type: none;
+    transition: transform 500ms ease;
+}
+
+.n-list>ul li a {
+    display: block;
+
+}
+
+.n-list>ul>li:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.n-right {
+    padding-inline-end: 10px;
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.n-button {
+    max-width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .n-list {
+        align-self: flex-end;
+        position: absolute;
+        left: 0;
+    }
+
+    .menu-toggler {
+        display: flex;
+    }
+
+    .n-list>ul {
+        gap: 0;
+        position: absolute;
+        left: 0;
+        padding: 5px 5px;
+        min-width: clamp(200px, 50vw, 355px);
+        transform: translatex(-100%);
+        background: #d2d2d2;
+        flex-direction: column;
+        box-shadow: -6px 1px 10px -4px;
+    }
+
+    .App.dark .n-list>ul {
+        background: #0c0c0c;
+    }
+
+    .n-list>ul>li {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: 1px solid transparent;
+        margin-block-end: 0.1rem;
+    }
+
+    .n-list>ul>li:hover {
+        background: white;
+        color: var(--orange);
+        border-color: var(--orange);
+    }
+    
+    .App.dark .n-list>ul>li:hover {
+        background: #333;
+    }
+
+}
+
+@media(max-width: 350px) {
+       .n-button {
+        display: none;
+    }
+}

@@ -1,0 +1,85 @@
+:root {
+    --yellow: rgb(23, 190, 23);
+    --orange: rgb(18 135 18);
+    --black: #242049;
+    --white: rgb(243, 233, 233);
+    --gray: #6c748b;
+    --blueCard: #ddf8fe;
+    --purple: rgb(194, 143, 226);
+    --boxShadow: 0 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgb(14, 87, 14);
+    --boxShadowColor: rgba(14, 87, 14, 0.568);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --theme-main-color: rgb(23, 190, 23);
+
+    --admin-white: white;
+    --admin-green: #f1e0ff;
+    --admin-lightgreen: #fbf6ff;
+    --admin-dark: #48464a;
+    --admin-black: #333;
+    --admin-gray: #ccc;
+    --admin-lightblue: #773db1;
+    --admin-overlay: #33333347;
+}
+
+.App {
+    background: #fafafa;
+}
+
+.App.dark {
+    background: #101010;
+    --black: rgb(158 154 154);
+}
+
+.front-end .container {
+    padding: 0.5rem 3.5rem;
+    color: var(--black);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    .front-end .container {
+        padding: 1.5rem 0.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .front-end .container {
+        padding: 1.3rem 0.6rem;
+    }
+}
+
+.button {
+    border-radius: 34px;
+    border: 1px solid transparent;
+    color: var(--white);
+    font-size: 16px;
+    padding: 10px;
+    background: linear-gradient(180deg, var(--orange) 26.71%, var(--yellow) 99.36%);
+    box-shadow: 0 7px 12px -2px var(--boxShadowColor);
+    transition: background 300ms ease-in;
+}
+
+.button:hover {
+    background: var(--white);
+    color: var(--orange);
+    border-color: var(--orange);
+    cursor: pointer;
+}
+
+.App.dark .blur {
+    display: none;
+}
+
+.App:not(.dark) .blur {
+    position: absolute;
+    width: min(22rem, 70vw);
+    height: 15rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}

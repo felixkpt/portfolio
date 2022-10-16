@@ -1,0 +1,9 @@
+[
+  { "name": "--theme-background-color", "value": "#f2f7f2"},
+  { "name": "--theme-background-secondary-color", "value": "#e4ebe4"},
+  { "name": "--theme-main-color", "value": "#14a800"},
+  { "name": "--theme-text-color", "value": "#222"},
+  { "name": "--theme-sub-text-color", "value": "#222"},
+  { "name": "--theme-nav-background-color", "value": "#28a717"},
+  { "name": "--theme-nav-text-color", "value":"#ffff"}
+]

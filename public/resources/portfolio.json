@@ -1,0 +1,190 @@
+[
+  {
+    "role": "Lead Developer",
+    "name": "Everlasting Designers",
+    "start": "January 2022",
+    "end": "Present",
+    "products": [
+      {
+        "name": "Legal Premiums",
+        "url": "https://legalpremiums.com",
+        "start": "January 2022",
+        "end": "June 2022",
+        "description": "Legal Premiums is an insurance companies review website.<br>Our team used PHP, Laravel 9 for the backend development, Vanilla JavaScript, Vue.js and Tailwind CSS for the admin dashboard.<br>I played a key role in the front-end development whereby I used Tailwind CSS, HTML5 and jQuery with a bit of Vanilla JavaScript on creating dashboard functionalities for the website.<br>We used Git and GitHub as a master peace during the entire project's development life.",
+        "outcome": "In the end, the project was completed and we delivered it to our client.<br>We received a few revisions, made the corrections as necessary and deployed the application.",
+        "images": [
+          "/images/Portfolio/LegalPremiums/Screenshot%202022-07-13%20170515.png",
+          "/images/Portfolio/LegalPremiums/Screenshot%202022-07-13%20170558.png",
+          "/images/Portfolio/LegalPremiums/Screenshot%202022-07-13%20170653.png",
+          "/images/Portfolio/LegalPremiums/Screenshot%202022-07-13%20175611.png",
+          "/images/Portfolio/LegalPremiums/Screenshot%202022-07-13%20180048.png"
+        ]
+      },
+      {
+        "name": "InfoSourceHub",
+        "url": "https://www.infosourcehub.com/",
+        "start": "May 2022",
+        "end": "Present",
+        "description": "Info Source Hub is a news website developed using PHP and WordPress.<br>Our team designed and created WordPress theme that powers the website.<br>On the Front-End part we were able to achieve the elegant design by use of Bootstrap CSS along with custom CSS3.<br>I played a role in developing the WordPress theme that is used on the front-end part of the website and google API integration for user auth.",
+        "outcome": "So far we have received positive feedback from the client, we are still working on some features like login and register.",
+        "images": [
+          "/images/Portfolio/InfoSourceHub/Screenshot%202022-07-13%20154451.png",
+          "/images/Portfolio/InfoSourceHub/Screenshot%202022-07-13%20155707.png",
+          "/images/Portfolio/InfoSourceHub/Screenshot%202022-07-13%20155856.png",
+          "/images/Portfolio/InfoSourceHub/Screenshot%202022-07-13%20155947.png"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Full Stack Developer",
+    "name": "Design Unity",
+    "start": "February 2021",
+    "end": "January 2022",
+    "products": [
+      {
+        "name": "Quick Shoppers",
+        "url": "http://shop.onlineserviceslab.com/",
+        "start": "March 2021",
+        "end": "September 2021",
+        "description": " Quick Shoppers is an online shopping website that we build using Laravel 8, Vue.js 3, with API integration, HTML5, Bootstrap 5 & CSS3, JavaScript & jQuery, CSS, MySQL for storage of data, HTTP URL routing and integrated payment methods using most up to date frameworks.<br>I was assigned with the task of creating the API for the E-commerce website, this involved back-end and front-end incorporation of scripts, writing Vue.js with Laravel backend JSON data output implementation.<br>Git version control and GitHub played a big part as team collaboration became less frustrating to our company.",
+        "outcome": "The project was a big one, with a number of revisions and updates from our client, but eventually we were able to finish the project with satisfactory outcome.",
+        "images": [
+          "/images/Portfolio/QuickShoppers/Screenshot%202022-06-11%20171241.png",
+          "/images/Portfolio/QuickShoppers/Screenshot%202022-06-11%20171404%202.png",
+          "/images/Portfolio/QuickShoppers/Screenshot%202022-06-11%20171431%203.png",
+          "/images/Portfolio/QuickShoppers/Screenshot%202022-06-11%20171551.png",
+          "/images/Portfolio/QuickShoppers/Screenshot%202022-06-11%20171648.png",
+          "/images/Portfolio/QuickShoppers/Screenshot%202022-06-11%20171738.png"
+        ]
+      },
+      {
+        "name": "LancerCommunity",
+        "url": "https://lancercommunity.com/",
+        "start": "September 2021",
+        "end": "January 2022",
+        "description": "LancerCommunity is a freelance reviewing platform that gives users who have worked with different freelancing companies the opportunity to post their views on the quality of services received from particular freelancing company.<br>We used Laravel for the backend development, and Tailwind CSS for the admin dashboard<br>On the Frontend, Bootstrap 5 was used with JavaScript.<br>My key roles on this project was designing the admin dashboard & styling it using Tailwind CSS.<br>I also wrote a some of Laravel scripts for the back-end functionalities of the website.<br>Since we were working on this project from remote, we were able to collaborate well by utilizing Git & GitHub.",
+        "outcome": "We were able to complete the project after following all the instructions that our client given us. The final product got excellent reputation from our stakeholders which contributed to our company becoming the most trusted in the country.",
+        "images": [
+          "/images/Portfolio/LancerCommunity/Screenshot%202022-06-16%20152716.png",
+          "/images/Portfolio/LancerCommunity/Screenshot%202022-06-16%20152746.png",
+          "/images/Portfolio/LancerCommunity/Screenshot%202022-06-16%20152815.png",
+          "/images/Portfolio/LancerCommunity/Screenshot%202022-06-16%20152911.png",
+          "/images/Portfolio/LancerCommunity/Screenshot%202022-06-16%20152933.png",
+          "/images/Portfolio/LancerCommunity/Screenshot%202022-06-16%20152958.png"
+        ]
+      },
+      {
+        "name": "Celebrities Nation",
+        "url": "https://celebritiesnation.com",
+        "start": "May 2021",
+        "end": "November 2021",
+        "description": "Celebrities nation website is for latest celebrity news, Typologies & Enneagram.<br>We achieved desired outcome of this project using Laravel 9, PHP for the Backend functionalities of the website. On the Frontend we used Vue.js, Tailwind CSS, HTML5.<br>My main contributions on this project was designing & coding a greater part of the back-end.<br>I designed the routes of the app, created Controllers, Models and the views of the application<br>I also put into action the visual design part of the website by writing the stylings using CSS3 and Tailwind CSS <br>We also utilized Git Version control for the purposes of collaboration on the project.",
+        "outcome": "We were able to complete the project in an ideal time as per our client's requirements. The project was successful, we deployed the application which is now performing well.",
+        "images": [
+          "/images/Portfolio/CelebritiesNation/Screenshot%202022-07-13%20162745.png",
+          "/images/Portfolio/CelebritiesNation/Screenshot%202022-07-13%20162827.png",
+          "/images/Portfolio/CelebritiesNation/Screenshot%202022-07-13%20162853.png",
+          "/images/Portfolio/CelebritiesNation/Screenshot%202022-07-13%20163025.png",
+          "/images/Portfolio/CelebritiesNation/Screenshot%202022-07-13%20163111.png",
+          "/images/Portfolio/CelebritiesNation/Screenshot%202022-07-13%20163151.png"
+        ]
+      },
+      {
+        "name": "OnlineServicesLab",
+        "url": "https://onlineserviceslab.com/",
+        "start": "February 2021",
+        "end": "June 2021",
+        "description": "Website for news & blogging, we developed Online Services Lab using core PHP & WordPress, CSS3, Bootstrap CSS, HTML5, jQuery and JavaScript.<br>My key responsibilities were setting up the hosting for the website ensuring proper http/https redirect and developing the theme we used, a WordPress theme I developed using bootstrap 5,  I named it b5awesometheme and direct link to the theme in GitHub is https://github.com/felixkpt/b5awesometheme<br>For the entire period of the website development, we used Git and GitHub for the purpose of collaboration and later deployment of the application files to the domain host.",
+        "outcome": "With the proper structure of our company lead by our lead manager Mr. Andrew Njogu, we were able to achieve excellent outcome. The website is now working as per our customer specifications.",
+        "images": [
+          "/images/Portfolio/OnlineServicesLab/Screenshot%202022-07-13%20162126.png",
+          "/images/Portfolio/OnlineServicesLab/Screenshot%202022-07-13%20162223.png",
+          "/images/Portfolio/OnlineServicesLab/Screenshot%202022-07-13%20162257.png",
+          "/images/Portfolio/OnlineServicesLab/Screenshot%202022-07-13%20162334.png",
+          "/images/Portfolio/OnlineServicesLab/Screenshot%202022-07-13%20162437.png"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Full Stack Developer",
+    "name": "Shara Solutions",
+    "start": "December 2019",
+    "end": "January 2021",
+    "products": [
+      {
+        "name": "Workpar",
+        "url": "https://www.workpar.com",
+        "start": "November 2019",
+        "end": "May 2020",
+        "description": "Workpar is freelancing website we designed and implemented its functionalities using PHP, CodeIgniter as the server scripting language, it is accessible via HTTP protocol.<br>We were able to achieve website using MVC pattern adopted by CodeIgniter.<br>I developed scripts (JavaScript & jQuery) that made user interaction on the website better  by reducing the requests from client side to the server side via utilizing Ajax calls using XHR (XMLHttpRequest), I also implemented the design part using HTML5 & CSS3.<br>I contributed to the overall success of the project by writing the back-end CodeIgniter routes, Controllers, Models and views for the entire application. <br>Modern design principles were followed on the Frontend UI CSS styling.<br>I was also given the task of making sure that the website is optimized for SEO whereby I achieved it by incorporating SEO skills including schema for better ranking purposes.",
+        "outcome": "We took some time on this project since it was a pretty large project but with our better organized and able team, project was completed as per the client's specifications and we were able to close the project successfully.",
+        "images": [
+          "/images/Portfolio/Workpar/Screenshot%202022-06-16%20142752.png",
+          "/images/Portfolio/Workpar/Screenshot%202022-06-16%20142839.png",
+          "/images/Portfolio/Workpar/Screenshot%202022-06-16%20142908.png",
+          "/images/Portfolio/Workpar/Screenshot%202022-06-16%20142932.png",
+          "/images/Portfolio/Workpar/Screenshot%202022-06-16%20142957.png",
+          "/images/Portfolio/Workpar/Screenshot%202022-06-16%20143042.png"
+        ]
+      },
+      {
+        "name": "SuperiorWebDesigners",
+        "url": "https://superiorwebdesigners.com",
+        "start": "May 2020",
+        "end": "October 2020",
+        "description": "The project was build using PHP, WordPress, CSS, HTML, jQuery for homepage animation.<br>We also applied our website development skills on HTTP URL rewriting and CSS3 stylings of the website.<br>My main roles on this project was designing and styling the front-end part of the website which I achieved by writing tailored CSS3 styles. <br>I also played a role in the PHP backend development whereby I created a WordPress plugin in for re-writing URLs to the pattern specified by the stakeholders.",
+        "outcome": "The project was well organized as per the clients description, we completed the job in time. SuperiorWebDesigers finally lead to the promotion of our client because of the services he contributed to his company by coming up with the website.",
+        "images": [
+          "/images/Portfolio/SuperiorWebDesigners/Screenshot%202022-06-16%20143312.png",
+          "/images/Portfolio/SuperiorWebDesigners/Screenshot%202022-06-16%20143342.png",
+          "/images/Portfolio/SuperiorWebDesigners/Screenshot%202022-06-16%20143411.png",
+          "/images/Portfolio/SuperiorWebDesigners/Screenshot%202022-06-16%20143457.png",
+          "/images/Portfolio/SuperiorWebDesigners/Screenshot%202022-06-16%20143521.png",
+          "/images/Portfolio/SuperiorWebDesigners/Screenshot%202022-06-16%20143615.png"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Backend Developer",
+    "name": "Diplo Coders",
+    "start": "June 2018",
+    "end": "November 2019",
+    "products": [
+      {
+        "name": "Foregoal",
+        "url": "https://www.foregoal.com/",
+        "start": "June 2018",
+        "end": "February 2019",
+        "description": "• Foregoal is a fantacy football predictions website.<br>• Website Development adopted use of PHP, Laravel framework version 5 on the backend, HTTP, and GIT version control for tracking and deploying changes.<br>• My role was working on the back-end part, Laravel routing, Controllers, Models and views creating.<br>• I also created Laravel database migrations, designing and writing MySQL queries that were used in the aid of storage part of the website data.<br>• I also assisted the company in creating the final visual layout of the website by using bootstrap, JavaScript, and jQuery on the frontend.<br>• Used HTML, CSS, and CSS3 with JavaScript for navigation actions.",
+        "outcome": "Successfully delivered the football predictions website to the client. The client thanked us for our good job.",
+        "images": [
+          "/images/Portfolio/Foregoal/Screenshot%202022-06-16%20194635.png",
+          "/images/Portfolio/Foregoal/Screenshot%202022-06-16%20194758.png",
+          "/images/Portfolio/Foregoal/Screenshot%202022-06-16%20194851.png",
+          "/images/Portfolio/Foregoal/Screenshot%202022-06-16%20195113.png",
+          "/images/Portfolio/Foregoal/Screenshot%202022-06-16%20194935.png",
+          "/images/Portfolio/Foregoal/Screenshot%202022-06-16%20195309.png"
+        ]
+      },
+      {
+        "name": "BidSawa",
+        "url": "https://howlow.co.ke/",
+        "start": "May 2019",
+        "end": "March 2020",
+        "description": "• We developed the bidding E-Commerce Website that allows people to bid on available products.<br>• I played a role in the development of the website by setting up Laravel 7 (PHP 7.2.5).<br>• On the front-end, the application was developed using Vue.js, HTML, CSS3, and JavaScript. My role was writing Vue.js scripts that helped in making the bidding process easy for the users.<br>• I also helped my team in writing the stylings of the website using bootstrap CSS (bootstrap V4) which lead to achievement the elegant layout on the frontend.<br>• My team used Git and GitHub for collaboration and deployment of the project to live server.<br>• Managed the complete software development process from conception to deployment.<br>• Responsible for maintaining and upgrading the software following deployment.<br>• I also managed the end-to-end life cycle for the production of the application.<br>• The auctioning website was well optimized in terms of SEO as we followed best Search Engine Optimization practices.",
+        "outcome": "Successfully delivered the product to the client, our client was pleased with the result because the website was functioning as per their need. ",
+        "images": [
+          "/images/Portfolio/BidSawa/Screenshot%202022-06-16%20200035.png",
+          "/images/Portfolio/BidSawa/Screenshot%202022-06-16%20200117.png",
+          "/images/Portfolio/BidSawa/Screenshot%202022-06-16%20200143.png",
+          "/images/Portfolio/BidSawa/Screenshot%202022-06-16%20200221.png",
+          "/images/Portfolio/BidSawa/Screenshot%202022-06-16%20200326.png",
+          "/images/Portfolio/BidSawa/Screenshot%202022-06-16%20200439.png"
+        ]
+      }
+    ]
+  }
+]

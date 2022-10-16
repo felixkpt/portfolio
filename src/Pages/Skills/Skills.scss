@@ -1,0 +1,96 @@
+.skills {
+
+    &__content-wrapper {
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 20px;
+            margin-top: 20px;
+            gap: 40px;
+            width: 100%;
+
+        }
+
+
+        &__inner-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+
+            &__category-text {
+                display: inline-block;
+                color: var(--theme-main-color);
+                font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 1.3rem;
+                letter-spacing: 1.2px;
+                position: relative;
+                text-transform: uppercase;
+                padding: 5px 10px;
+                border-bottom: 2px solid var(--theme-main-color);
+                margin-bottom: 15px;
+            }
+
+            &__category-line {
+                width: 70%;
+            }
+
+            &__category-text::before,
+            &__category-text::after {
+                position: absolute;
+                content: '';
+                width: 1px;
+                height: 5px;
+                background-color: var(--theme-main-color);
+                bottom: -1px;
+            }
+
+            &__category-text::before {
+                left: 0;
+            }
+
+            &__category-text::after {
+                right: 0;
+            }
+
+            div {
+                width: 100%;
+            }
+
+            .skill-progressbar-wrapper {
+                padding: 7px 0 0 0;
+
+                .skill {
+                    font-size: min(4.88vw, 1.5rem);
+                    margin: 0 0 10px;
+                    font-weight: 500;
+                    color: var(--theme-sub-text-color);
+                }
+
+                .progressbar {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .skills__content-wrapper .skills-grid {
+        grid-template-columns: auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .skills__content-wrapper .skills-grid {
+        flex-direction: column;
+        row-gap: 40px;
+
+    }
+}
